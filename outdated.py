@@ -83,7 +83,7 @@ def check_month(date: list[str]):
     return False
 
 def print_date(date: list[str]):
-    print(f"{date[2]}-{int(date[1]):02}-{date[0]:02}")
+    print(f"{date[2]}-{int(date[0]):02}-{int(date[1]):02}")
 
 if __name__ == '__main__':
     main()
