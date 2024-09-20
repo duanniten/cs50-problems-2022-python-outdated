@@ -24,7 +24,7 @@ def main():
 def get_date():
     while True:
         try:
-            date = input('Date: ')
+            date = input('Date: ').strip()
             date = format_date(date)
             if date:
                 return date
